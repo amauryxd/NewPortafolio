@@ -23,3 +23,6 @@
     width: 26rem;
     height: auto;
 }
+.active{
+    color: yellow;
+}
