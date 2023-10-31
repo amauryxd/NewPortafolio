@@ -3,11 +3,86 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portafolio</title>
+    <meta name="description" content="Portafolio y curriculum de Amaury Flores">
+    <meta name="keywords" content="Portafolio, AmauryFlores, amwichy, GameDev, Desarrollo de videojuegos, GameDesign, Diseño de juegos, Música, Producción Músical, Creación de videojuegos, Game Development, Game Design">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="amwichy">
+    <title>PortafolioAmaury</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
   </head>
-  <body>
-    <h1>xd</h1>
+  <body class="bg-dark">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-black fixed-top shadow-lg">
+        <div class="container-fluid d-flex justify-content-center col-lg-3 col-md-12">
+          <a class="navbar-brand mx-5 nav-link text-light" href="#inicio"><b>Inicio</b></a>                   
+          <a class="navbar-brand mx-5 nav-link text-light" href="#quien"><b>¿Quién soy?</b></a>
+          <a class="navbar-brand mx-5 nav-link text-light" href="#proy"><b>Proyectos</b></a>
+          <a class="navbar-brand mx-5 nav-link text-light" href="#actu"><b>Proyecto Actual</b></a>
+        </div>
+      </nav> 
+    </header>
+    <main>
+      <!--Inicio-->
+      <section id="inicio">
+        <div class="head-image">
+          <div class="head-text">
+            <h1 style="font-size:50px">Amwichy</h1>
+            <h3>GameDeveloper y Músico</h3>
+          </div>
+        </div>
+      </section>
+      <!--Quien Soy-->
+      <section id="quien" class="bg-dark text-light fs-4">
+        <div class="container bg-dark">
+          <h2 class="text-center fs-1">Acerca de mi</h2>
+          <div class="row py-5">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                  <p>¡Hola!, soy amaury, tengo 20 años y tengo conocimientos en el área de programación, desarrollo de videojuegos y en música, actualmente me encunetro estudiando la carrera Software interactivo y videojuegos, he participado en diferentes proyectos desarrollando el papel de diseñador de juegos, programador y músico, aparte, he participado en 3 GameJams hasta la actualidad
+                  </p>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                  <img src="./img/logo.jpg" alt="xd">
+              </div>
+          </div>
+      </div>
+      </section>
+      <!--Proyectos-->
+      <section id="proy">
+        <div class="row text-light">
+          <div class="col-lg-3 text-center container col-md-6 col-sm-12">
+            <div>
+              <h2>Be the one!</h2>
+              <img src="./img/betheon.png" alt="betheone" class="besize img-fluid">
+              <p class="fs-4 justify-content-center">Juega a ser vaqueros del viejo oeste que estan a un duelo a muerte, se más rapido que tu rival y dispara antes de que tu contrincante te gane <br/>Este juego es perfecto para jugar con amigos en esos momentos para matar tiempo, solo para teléfono</p>
+              <a href="https://amwichy.itch.io/be-the-one" class="btn btn-primary" target="_blank">¡Checa la pagina!</a>
+            </div>
+          </div>
+          <div class="col-lg-3 text-center container col-md-6 col-sm-12">
+            <div>
+              <h2>Definitely Not A Virus(trust me)</h2>
+              <img src="./img/viru.png" alt="DefinitelyNotAVirus" class="besize img-fluid">
+              <p class="fs-4 justify-content-center">Este es un juego creado para una GameJam, es un juego de terror psicologico donde tomes el lugar de una chica que ha conocido a alguien por internet, pero jamas imagino las consecuencias que esto le traería <br/> un divertido juego que puede llegar a perturbar, solo para computadora</p>
+              <a href="https://inztinct.itch.io/definetly-not-a-virus-trust-me" class="btn btn-primary" target="_blank">¡Juega Ahora!</a>
+            </div>
+          </div>
+          <div class="col-lg-3 text-center container col-md-6 col-sm-12">
+            <h2>The murder Mansion</h2>
+            <img src="./img/murder.png" alt="murdermansion" class="besize img-fluid">
+              <p class="fs-4">Este juego fue creado para una GameJam, es un juego que revive la esencia del misterio que nos trajo el juego clásico de mesa CLuedo, pero ahora en primera persona, interactua y descubre el misterio del asesinato<br/> un juego bastante divertido y complejo al mismo tiempo, solo para computadora</p>
+              <a href="https://inztinct.itch.io/the-murder-mansion" class="btn btn-primary" target="_blank">¡Checa la pagina!</a>
+          </div>
+          <div class="col-lg-3 text-center container col-md-6 col-sm-12">
+            <h2>TennisCat!</h2>
+            <img src="./img/cat.png" alt="TennisCat" class="besize img-fluid">
+              <p class="fs-4">Un juego creado para entender la funcionalidad de unity, donde el reto fue probar una forma de ver de otra manera el pong, de los primeros juegos creados</p>
+              <a href="https://amauryf.itch.io/tenniscat" class="btn btn-primary" target="_blank">¡Juega Ahora!</a>
+          </div>
+        </div>
+      </section>
+      <!--Actualidad-->
+      <section id="actu"></section>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
