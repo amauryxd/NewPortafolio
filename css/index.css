@@ -13,7 +13,8 @@
     color: white;
 }
 .head-image{
-    background-image: url("../img/fondo2.webp");
+    --opacidad-negro: .4;
+    background-image: linear-gradient(rgb(0,0,0, var(--opacidad-negro)),rgba(0,0,0, var(--opacidad-negro))), url("../img/fondo2.webp");
     background-color: #cccccc;
     height: 800px;
     background-position: center;
